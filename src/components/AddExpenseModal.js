@@ -23,7 +23,7 @@ export default function AddExpenseModal({ open, onClose, toast }) {
   const [checkedMembers, setCheckedMembers] = useState({});
   const [splitError, setSplitError] = useState('');
 
-  // Reset when modal opens
+
   useEffect(() => {
     if (open && selectedGroup) {
       setDesc('');
