@@ -1,4 +1,0 @@
-[build]
-  base="splitwise"
-  command="npm run build"
-  publish ="splitwise/build"
